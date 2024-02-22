@@ -2,20 +2,20 @@ package tpgit;
 
 public class Animal {
 	
-	private String couleur;
+	private int[] couleur = new int[3];
 	private Boolean carniv;
 	
-	public Animal(String couleur, Boolean carni) {
+	public Animal(int[] couleur, Boolean carni) {
 		
 		this.couleur = couleur;
 		this.carniv = carniv;
 	}
 
-	public String getCouleur() {
+	public int[] getCouleur() {
 		return couleur;
 	}
 
-	public void setCouleur(String couleur) {
+	public void setCouleur(int[] couleur) {
 		this.couleur = couleur;
 	}
 
