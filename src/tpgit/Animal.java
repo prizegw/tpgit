@@ -25,6 +25,7 @@ public class Animal {
 
 	public void setCarniv(Boolean carniv) {
 		this.carniv = carniv;
+		//Bonjour
 	}
 	
   
